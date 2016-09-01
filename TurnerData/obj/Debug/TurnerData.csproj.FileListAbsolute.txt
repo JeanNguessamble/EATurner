@@ -1,0 +1,8 @@
+C:\Projects\Interview\TurnerData\bin\Debug\TurnerData.dll.config
+C:\Projects\Interview\TurnerData\bin\Debug\TurnerData.dll
+C:\Projects\Interview\TurnerData\bin\Debug\TurnerData.pdb
+C:\Projects\Interview\TurnerData\bin\Debug\EntityFramework.dll
+C:\Projects\Interview\TurnerData\bin\Debug\EntityFramework.xml
+C:\Projects\Interview\TurnerData\obj\Debug\TurnerData.csprojResolveAssemblyReference.cache
+C:\Projects\Interview\TurnerData\obj\Debug\TurnerData.dll
+C:\Projects\Interview\TurnerData\obj\Debug\TurnerData.pdb
