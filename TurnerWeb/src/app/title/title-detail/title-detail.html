@@ -1,0 +1,24 @@
+
+<h2>{{ repoDetail.movie.name }}</h2>
+
+<table>
+    <tr>
+        <td>Genre</td>
+        <td>{{ repoDetail.genre }}</td>
+    </tr>
+    <tr>
+        <td>awards</td>
+        <td>
+            <table>
+                <tr *ngFor="let award of repoDetail.awards">
+                    <td>{{ award.name }}</td>
+                    <td>{{ award.year }}</td>
+                </tr>
+            </table>
+            
+        </td>
+    </tr>
+
+
+</table>
+
