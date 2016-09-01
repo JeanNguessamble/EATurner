@@ -1,0 +1,6 @@
+<h3>Movie Search</h3>
+
+<input type="text" #repoName placeholder="Search by Name" [(ngModel)]="filterText">
+<button (click)="searchByName(repoName.value)">Search</button>
+
+<router-outlet></router-outlet>

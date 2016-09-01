@@ -1,0 +1,26 @@
+<h3>Movie list</h3>
+<table style='width:70%'>
+  <tr>
+    <td style='width70%; vertical-align:top;'>
+        <table style='width:100%; border-collapse: collapse; border: 1px solid black'>
+          <tr style="color:white; background-color:navy;">
+            <td>Name</td>
+            <td>Released</td>
+            <td>Processed Date & Time</td>
+          </tr>
+          <tr *ngFor="let movie of movies | async ">
+            <td><a [routerLink]="['/title', movie.id]">{{ movie.name }}</a></td>
+            <td>{{ movie.releaseYear }}</td>
+            <td>{{ movie.processedDate | date: 'longDate'}}
+              &nbsp;&nbsp;
+              {{ movie.processedTime }}</td>
+          </tr>
+        </table>
+    </td>
+    <td style='width:30%; vertical-align:top;'><router-outlet></router-outlet></td>
+  </tr>
+</table>
+
+
+
+
